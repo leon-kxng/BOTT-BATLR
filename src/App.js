@@ -9,7 +9,7 @@ function App() {
 
   useEffect(() => {
     // Fetch data from the API
-    fetch('')
+    fetch('https://my-json-server.typicode.com/leon-kxng/BOTT-BATLR/bots')
     .then((resp) => resp.json())
     .then((data) => setBots(data))
     .catch((error) => console.error('Error fetching data:', error));

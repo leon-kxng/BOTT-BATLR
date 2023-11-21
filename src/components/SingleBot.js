@@ -16,7 +16,7 @@ function SingleBot({ bot, enlistedBots, setEnlistedBots }) {
       
       setEnlistedBots([...enlistedBots, bot]);
 
-      fetch(`http://localhost:3000/bots/${bot.id}`, {
+      fetch(`https://my-json-server.typicode.com/leon-kxng/BOTT-BATLR/bots/${bot.id}`, {
         method: "DELETE",
       })
         .then((resp) => {
