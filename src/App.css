@@ -1,14 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700;800;900&display=swap");
 
 :root {
-  --dark-one: #333;
-  --dark-two: #7a7a7a;
+  --dark-one: #2c3e50; /* Dark blue-gray */
+  --dark-two: #6c7a89; /* Dark gray-blue */
   --dark-three: #0f0c16;
-  --main-color: #777a09b9;
-  --light-one: #fff;
+  --main-color: #3498db; /* Dodger blue */
+  --light-one: #ecf0f1; /* Light gray */
   --light-two: #f9fafb;
   --light-three: #f6f7fb;
-  --light-four: #c360b9;
+  --light-four: #598fb6; /* Amethyst */
 }
 
 *,
