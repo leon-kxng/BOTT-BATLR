@@ -9,7 +9,7 @@
   --light-two: #f9fafb;
   --light-three: #f6f7fb;
   --light-four: #598fb6; /* Amethyst */
-},
+}
 
 *,
 *::before,
@@ -70,6 +70,7 @@ h2 {
   border-bottom: 2px solid #333;
   background-color: var(--light-four);
   color: var(--dark-three);
+  border-radius: 20px;
 }
 
 /* Style the horizontal layout for BotCollection items */
@@ -91,7 +92,7 @@ h2 {
   box-shadow: 0 0 5px rgba(26, 1, 1, 0.2);
   background-color: var(--main-color);
   color: var(--dark-three);
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 .BotCollection li:hover {
@@ -114,7 +115,7 @@ h2 {
   transition: transform 0.2s;
   max-width: 300px;
   box-shadow: 0 0 5px rgba(255, 255, 255, 0.497);
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 .bot-card:hover {
